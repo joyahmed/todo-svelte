@@ -22,6 +22,6 @@
 	</div>
 	<button
 		type="submit"
-		class="w-full shadow-sm rounded bg-blue-500 hover:bg-blue-600 py-2 text-white">Submit</button
+		class="w-full shadow-sm rounded bg-blue-500 hover:bg-blue-600 py-1.5 text-white text-xl">Submit</button
 	>
 </form>

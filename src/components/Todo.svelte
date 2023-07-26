@@ -10,9 +10,9 @@
 		name="completed"
 		checked={todo.completed}
 		on:change={() => toggleTodoCompleted(todo.id)}
-		class="mr-2 h-5 w-5"
+		class="mr-2 h-5 w-5 cursor-pointer"
 	/>
-	<span class={`flex-1 text-gray-800 ${todo.completed ? 'line-through' : ''}`}>{todo.text}</span>
+	<span class={`flex-1 text-gray-800 text-lg ${todo.completed ? 'line-through' : ''}`}>{todo.text}</span>
 
 	<button
 		type="button"
